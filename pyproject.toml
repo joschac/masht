@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "masht"
+version = "0.1.0"
+description = "HYDRA and MultiRocket time-series features classified by TabPFN"
+readme = "README.md"
+requires-python = ">=3.14.3"
+license = "GPL-3.0-only"
+license-files = ["LICENSE", "LICENSES/*", "THIRD_PARTY_NOTICES.md"]
+dependencies = [
+    "aeon==1.4.0",
+    "numba==0.63.1",
+    "numpy==2.3.5",
+    "scikit-learn==1.7.2",
+    "tabpfn==8.1.0",
+    "torch==2.13.0",
+]
+
+[tool.setuptools]
+py-modules = ["masht"]
+
+[tool.setuptools.packages.find]
+include = ["masht_vendor*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
