@@ -140,15 +140,17 @@ two transforms.
 
 ## Citation
 
-If you use MASHT, please cite the MASHT paper. The following entry is a
-placeholder and will be replaced with the final paper reference once available:
+If you use MASHT in your research, please cite the accompanying paper:
 
 ```bibtex
-@misc{masht_forthcoming,
-  author = {MASHT Authors},
-  title  = {MASHT: MultiRocket And Stacked Hydra Transformed},
-  year   = {Forthcoming},
-  note   = {Placeholder; replace with the published paper reference}
+@misc{cueppers2026incontexttimeseriesclassification,
+      title={In-Context Time Series Classification with Random Convolutional Features}, 
+      author={Joscha Cüppers and Jilles Vreeken},
+      year={2026},
+      eprint={2607.19234},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2607.19234}, 
 }
 ```
 
@@ -165,24 +167,36 @@ warning.
 Please also cite the HYDRA and MultiRocket feature transforms:
 
 ```bibtex
-@article{dempster_etal_2023,
-  author  = {Dempster, Angus and Schmidt, Daniel F and Webb, Geoffrey I},
-  title   = {Hydra: Competing Convolutional Kernels for Fast and Accurate Time Series Classification},
-  year    = {2023},
-  journal = {Data Mining and Knowledge Discovery},
-  volume  = {37},
-  pages   = {1779--1805}
+@article{dempster2023hydra,
+  title={Hydra: competing convolutional kernels for fast and accurate time series classification: A. Dempster et al.},
+  author={Dempster, Angus and Schmidt, Daniel F and Webb, Geoffrey I},
+  journal={Data Mining and Knowledge Discovery},
+  volume={37},
+  number={5},
+  pages={1779--1805},
+  year={2023},
+  publisher={Springer}
 }
 
-@article{tan_etal_2022,
-  author  = {Tan, Chang Wei and Dempster, Angus and Bergmeir, Christoph and Webb, Geoffrey I},
-  title   = {MultiRocket: Multiple Pooling Operators and Transformations for Fast and Effective Time Series Classification},
-  year    = {2022},
-  journal = {Data Mining and Knowledge Discovery},
-  volume  = {36},
-  pages   = {1623--1646}
+@article{tan2022multirocket,
+  title={MultiRocket: multiple pooling operators and transformations for fast and effective time series classification: CW Tan},
+  author={Tan, Chang Wei and Dempster, Angus and Bergmeir, Christoph and Webb, Geoffrey I},
+  journal={Data Mining and Knowledge Discovery},
+  volume={36},
+  number={5},
+  pages={1623--1646},
+  year={2022},
+  publisher={Springer}
 }
 ```
 
-TabPFN should also be cited according to the model version actually used; its
-upstream repository contains the current citation guidance.
+TabPFN should also be cited according to the model version actually used:
+
+```bibtex
+@article{grinsztajn2026tabpfn,
+  title={Tabpfn-3: Technical report},
+  author={Grinsztajn, L{\'e}o and Fl{\"o}ge, Klemens and Key, Oscar and Birkel, Felix and Jund, Philipp and Roof, Brendan and Manium, Mihir and Hoo, Shi Bin and B{\"u}hler, Magnus and Garg, Anurag and others},
+  journal={arXiv preprint arXiv:2605.13986},
+  year={2026}
+}
+```
