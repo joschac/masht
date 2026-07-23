@@ -4,6 +4,10 @@ Masht is a time-series classifier that concatenates HYDRA and MultiRocket
 features and classifies the resulting table with TabPFN. It provides a
 standalone, estimator-style interface.
 
+This is the official repository accompanying the paper [*In-Context Time
+Series Classification with Random Convolutional
+Features*](https://arxiv.org/abs/2607.19234) 
+
 **MASHT** stands for **M**ultiRocket **A**nd **S**tacked **H**ydra
 **T**ransformed. MultiRocket and HYDRA produce and stack the time-series
 features, while “Transformed” refers to the TabPFN model that classifies them
