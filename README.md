@@ -13,6 +13,12 @@ Features*](https://arxiv.org/abs/2607.19234)
 features, while “Transformed” refers to the TabPFN model that classifies them
 using a transformer architecture.
 
+## Empirical results
+
+The accompanying paper reports results on 112 univariate UTF-112 datasets
+(30 resamples per dataset) and 71 multivariate Multiverse datasets. The raw
+results are included in the [`results/`](results/) directory.
+
 ## Requirements
 
 Masht requires Python 3.14.3 or newer. Its runtime dependencies are pinned in
